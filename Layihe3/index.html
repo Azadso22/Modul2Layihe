@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Convertor</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-logo-img">
+            <img class="logo-img" src="https://s3-alpha-sig.figma.com/img/5e85/ba7e/2220b03c0726ae6807b6de824e538e46?Expires=1669593600&Signature=aBEQ8uUhnMgwRdOTSU8lze1WpquoGLPINESriFgefD34yIRz-DogMpdrn~kU8el0c0UurdTd6BkIUfu6tRfR8cCN3gI9N~X7M4ivlO1nMlb0PH280vDEyiW3CjhUWgd8RdqMUHzXYsZoFRo8MX~xFakpV1J-ozA3C263ynVCof3Xm-A~HTBAQJe22t583Jl4GgUGZ0ytzLc-2aCpC1gYFrnIYGR7LbOnVlhOkeXwa8FlgM2QIBw~pQBcuQtyJ2j-Juyvguc4XyIw1tWc2bloKHIQWIF9pDl7T9il2uCGhyrGASl0Wc4g1ny6ngg3MrEBsrhuhjV7Axgcj7F9rpg2mg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="bank">
+        </div>
+
+        <div class="header-menu-div">
+            <ul class="header-list">
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+
+        <button class="header-button">ВОЙТИ</button>
+    </header>
+
+    <main>
+
+        <h1>Конвертер валют онлайн</h1>
+
+        <div class="convertor-sections">
+
+            <section class="input-section">
+
+                <h2>У меня есть</h2>
+
+                <div class="currency-menu-left">
+                    <button class="button-left active">RUB</button>
+                    <button class="button-left deactive">USD</button>
+                    <button class="button-left deactive">EUR</button>
+                    <button class="button-left deactive">GBP</button>
+                </div>
+
+                <div class="currency-left-calculate">
+                    <input class="left-value" type="text">
+
+                    <label class="currency-left" for="currency-value">1 RUB = 0.016523 USD</label>
+                </div>
+
+            </section>
+
+            <section class="output-section">
+
+                <h2>Хочу приобрести</h2>
+
+                <div class="currency-menu-right">
+                    <button class="button-right deactive">RUB</button>
+                    <button class="button-right active">USD</button>
+                    <button class="button-right deactive">EUR</button>
+                    <button class="button-right deactive">GBP</button>
+                </div>
+
+                <div class="currency-right-calculate">
+                    <label class="right-value" id="result" for="result-value"></label>
+
+                    <label class="currency-right" for="currency-value">1 USD = 60.521697 RUB</label>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

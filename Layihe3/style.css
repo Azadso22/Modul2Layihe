@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 100vh;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+header {
+    height: 50px;
+    background: #F5F5F6;
+    padding-right: 7.33%;
+    padding-left: 7.33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.logo-img {
+    width: 89px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.header-list {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-list li {
+    cursor: pointer;
+    color: #959BA4;
+}
+
+.header-button {
+    width: 58px;
+    height: 33px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: hidden;
+    color: #000000;
+}
+
+main {
+    padding: 50px 253px 50px 312px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.convertor-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #9F9F9F;
+}
+
+.currency-menu-left,
+.currency-menu-right {
+    box-sizing: border-box;
+    width: 259px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.currency-menu-right button,
+.currency-menu-left button {
+    cursor: pointer;
+    width: 25%;
+    box-sizing: border-box;
+    border: 1px solid #E5E5E5;
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.currency-left-calculate,
+.currency-right-calculate {
+    box-sizing: border-box;
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.currency-left-calculate .left-value,
+.currency-right-calculate .right-value {
+    height: 38px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    overflow: hidden;
+    color: #000000;
+}
+
+.currency-left-calculate .left-value {
+    border: 0px;
+}
+
+.currency-left-calculate input:focus {
+    outline: none;
+}
+
+.currency-left-calculate .currency-left, 
+.currency-right-calculate .currency-right {
+    height: 28px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+}
+
+.deactive {
+    background-color: #FFFFFF;
+    border-color: #E5E5E5;
+    color: #C6C6C6;
+}
+
+.active {
+    background-color: #833AE0;
+    border-color: #833AE0;
+    color: #FFFFFF;
+}
